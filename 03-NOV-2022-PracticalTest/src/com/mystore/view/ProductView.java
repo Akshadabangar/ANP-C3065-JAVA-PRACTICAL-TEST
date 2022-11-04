@@ -16,7 +16,7 @@ public class ProductView
 
 			Scanner sc=new Scanner(System.in);
 
-			for(int i=0;i<3;i++) 
+			for(int i=0;i<=3;i++) 
 			{
 			System.out.println("Enter Product Id:");
 			int iD=sc.nextInt();
@@ -53,21 +53,3 @@ public class ProductView
 	}
 }
 
-/*Enter Product Id:
-1
-Enter Product Name:
-Tea
-Enter Product Price:
-28
-Enter Product Id:
-2
-Enter Product Name:
-ParleG
-Enter Product Price:
-10
-Enter Product Id:
-3
-Enter Product Name:
-Nirma
-Enter Product Price:
-30*/
