@@ -7,12 +7,12 @@ public class Product
 	String productName;
 	float productPrice;
 
-	Product(int id,String name,float price)
+	Product(int id,String name,double pPrice)
 	{
 		
 		productId =id;
 		productName = name;
-		productPrice=price;
+		productPrice=pPrice;
 		
 	}
     public void setName(String productName) 
