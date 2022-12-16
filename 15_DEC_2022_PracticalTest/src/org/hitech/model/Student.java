@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Student {
 //member variables
-	int studentID;
-	String studentName;
-	String qualification;
+	private int studentID;
+	private String studentName;
+	private String qualification;
 
 	public Student() // Non-Parameterized Constructor
 	{

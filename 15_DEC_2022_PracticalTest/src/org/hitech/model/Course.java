@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Course 
 {
-		 int courseID;
-		 String courseName;
-		 double price;
+		 private int courseID;
+		 private String courseName;
+		 private double price;
 		 
 		 public Course() //Non-Parameterized Constructor
 		 {
